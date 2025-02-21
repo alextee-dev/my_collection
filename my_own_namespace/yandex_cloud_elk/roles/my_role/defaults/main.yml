@@ -1,0 +1,4 @@
+---
+# defaults file for vector-role
+path: '/tmp/123.txt'
+content: test_content
