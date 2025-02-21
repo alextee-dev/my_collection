@@ -3,8 +3,8 @@
   block:
     - name: Run the new module
       my_own_module:
-        path: '{{ path }}'
-        content: '{{ content }}'
+        path: '{{ file_path }}'
+        content: '{{ file_content }}'
       register: testout
     - name: Dump test output
       ansible.builtin.debug:

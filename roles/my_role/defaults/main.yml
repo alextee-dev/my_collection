@@ -1,4 +1,4 @@
 ---
 # defaults file for vector-role
-path: '/tmp/123.txt'
-content: test_content
+file_path: '/tmp/123.txt'
+file_content: test_content
